@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/profileFragment2">
+
+    <fragment
+        android:id="@+id/profileFragment2"
+        android:name="com.example.portofolio_modul.ui.ProfileFragment"
+        android:label="profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/experienceFragment2"
+        android:name="com.example.portofolio_modul.ui.ExperienceFragment"
+        android:label="fragment_experience"
+        tools:layout="@layout/fragment_experience" />
+    <fragment
+        android:id="@+id/androidFragment2"
+        android:name="com.example.portofolio_modul.ui.AndroidFragment"
+        android:label="fragment_android3"
+        tools:layout="@layout/fragment_android3" />
+    <fragment
+        android:id="@+id/uiUxFragment2"
+        android:name="com.example.portofolio_modul.ui.UiUxFragment"
+        android:label="fragment_ui_ux"
+        tools:layout="@layout/fragment_ui_ux" />
+    <fragment
+        android:id="@+id/settingFragment2"
+        android:name="com.example.portofolio_modul.ui.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/flutterFragment2"
+        android:name="com.example.portofolio_modul.ui.FlutterFragment"
+        android:label="fragment_flutter"
+        tools:layout="@layout/fragment_flutter" />
+</navigation>
